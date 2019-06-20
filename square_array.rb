@@ -7,19 +7,12 @@
  
  
  
- 
  def square_array(array)
  new_array = []
  array.each { |array_element| new_array << array_element * array_element }
  new_array
  end
  puts square_array([1, 2, 3]) 
-
-
-
-
-
-
 
 
 
